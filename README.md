@@ -1,2 +1,2 @@
 # GodotCSharpTutorial
-A series of tutorials on Godot with the use of C # as a programming language, if you are interested, is available for free on medium.
+A series of tutorials on Godot with the use of C # as a programming language, if you are interested, is available for free on [Medium](https://medium.com/@domresc/ep-0-introduction-why-godot-why-c-b129a40362d5).
