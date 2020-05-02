@@ -1,0 +1,29 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "C:/Users/domen/Nextcloud/Programmi/Godot_v3.2.1-stable_mono_win64/Godot_v3.2.1-stable_mono_win64.exe",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "stopAtEntry": false
+    },
+    {
+      "name": "Attach",
+      "type": "mono",
+      "request": "attach",
+      "address": "localhost",
+      "port": 23685
+    }
+  ],
+  "compounds": [
+    {
+      "name": "Launch & Attach",
+      "configurations": ["Attach", "Launch"]
+    }
+  ]
+}
