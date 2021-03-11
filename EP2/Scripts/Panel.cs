@@ -3,12 +3,12 @@ using System;
 
 public class Panel : Godot.Panel
 {
-    Node2D sprite;
+    Sprite sprite;
 
     // Called when the node enters the scene tree for the first time.
     public override void _Ready()
     {
-        sprite = GetNode<Node2D>("Sprite");
+        sprite = GetNode<Sprite>("Sprite");
 
         GetNode("Button").Connect("pressed", this, nameof(OnButtonPressed));
     }
